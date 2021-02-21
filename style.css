@@ -1,21 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Candara Light", sans-serif;
+}
 body {
   background: #928E8E;
 }
-.container{
+.cont h2{
+  text-align: center;
+  margin: 1em 0;
+  padding: .5em 0;
+  background: #C6C1C1;
+}
+.container {
   display: flex;
-  flex-wrap: wrap;
+  margin: 100px;
   flex-direction: row-reverse;
-  flex: 10em;
-  align-items: flex-start;;
-  list-style: none;
+}
+.justify-content {
   justify-content: space-evenly;
 }
-img{
-  max-height: 45vh;
+.align-item {
+  align-items: flex-start;
+  justify-content: space-around;
 }
-h1{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Candara Light"
+.align-content {
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+img{
+
+  max-width: 330px;
+}
+
+p{
+  font-size: 14px;
 }
