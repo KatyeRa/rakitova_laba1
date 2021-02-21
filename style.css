@@ -41,13 +41,11 @@ body {
   justify-content: space-around;
 }
 .flex-direction{
-  margin: 15px;
   flex-direction: column;
 }
-.direction{
-  margin: 15px;
-  flex-direction: column-reverse;
-  text-align: right;
+.order{
+  order: 1;
+  justify-content: space-evenly;
 }
 img{
   max-width: 330px;
