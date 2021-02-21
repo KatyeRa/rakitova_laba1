@@ -10,7 +10,7 @@ body {
 .cont h2{
   text-align: center;
   margin: 1em 0;
-  padding: .5em 0;
+  padding: .6em 0;
   background: #C6C1C1;
 }
 .container {
@@ -26,15 +26,32 @@ body {
   justify-content: space-around;
 }
 .align-content {
+  padding: 0;
+  margin: 0;
   align-content: stretch;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.align-content .content{
+  margin: 20px;
+}
+.flex-wrap{
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.flex-direction{
+  margin: 15px;
+  flex-direction: column;
+}
+.direction{
+  margin: 15px;
+  flex-direction: column-reverse;
+  text-align: right;
+}
 img{
-
   max-width: 330px;
 }
-
 p{
   font-size: 14px;
 }
