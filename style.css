@@ -44,7 +44,7 @@ body {
   flex-direction: column;
 }
 .order{
-  order: 1;
+  order: 0;
   justify-content: space-evenly;
 }
 img{
