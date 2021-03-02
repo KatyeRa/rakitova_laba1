@@ -46,10 +46,17 @@ body {
 .order{
   order: 0;
   justify-content: space-evenly;
+  width: 300px;
 }
 img{
-  max-width: 330px;
+  max-width: 300px;
 }
 p{
   font-size: 14px;
+}
+.contento{
+  flex-grow: 2;
+}
+.contento img{
+  width: 100%
 }
